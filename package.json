@@ -1,0 +1,29 @@
+{
+  "name": "orangehrm-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "playwright test",
+  "test:login": "playwright test tests/ui/login.spec.ts",
+  "test:ui": "playwright test tests/ui/",
+  "test:api": "playwright test tests/api/",
+  "test:all": "playwright test",
+  "test:headed": "playwright test --headed",
+  "test:debug": "playwright test --debug",
+  "report:generate": "allure generate allure-results --clean -o allure-report",
+  "report:open": "allure open allure-report",
+  "report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+  "test:report": "playwright test && allure generate allure-results --clean -o allure-report && allure open allure-report"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.10.2"
+  }
+}
