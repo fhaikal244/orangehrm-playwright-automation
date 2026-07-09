@@ -18,6 +18,14 @@ UI Automation Framework built from scratch using Playwright TypeScript with Page
 
 ## 📁 Project Structure
 
+├── .github/workflows/    # CI/CD pipeline
+├── pages/                # Page Object Model
+├── tests/                # Test cases
+├── data/                 # JSON test data
+├── utils/                # Custom WebElement helper
+├── fixtures/             # Custom fixtures
+└── playwright.config.ts  # Framework config
+
 ---
 
 ## ✅ Test Coverage
