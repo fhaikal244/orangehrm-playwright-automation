@@ -3,6 +3,7 @@
 ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=playwright&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+[![CI](https://github.com/fhaikal244/orangehrm-playwright-automation/actions/workflows/playwright.yml/badge.svg)](https://github.com/fhaikal244/orangehrm-playwright-automation/actions/workflows/playwright.yml)
 
 UI Automation Framework built from scratch using Playwright TypeScript with Page Object Model design pattern.
 
@@ -18,6 +19,7 @@ UI Automation Framework built from scratch using Playwright TypeScript with Page
 
 ## 📁 Project Structure
 
+```
 ├── .github/workflows/    # CI/CD pipeline
 ├── pages/                # Page Object Model
 ├── tests/                # Test cases
@@ -25,6 +27,7 @@ UI Automation Framework built from scratch using Playwright TypeScript with Page
 ├── utils/                # Custom WebElement helper
 ├── fixtures/             # Custom fixtures
 └── playwright.config.ts  # Framework config
+```
 
 ---
 
