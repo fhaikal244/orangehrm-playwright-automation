@@ -61,3 +61,12 @@ npm run test:report
 
 ## 🌐 Target App
 - **URL** → https://opensource-demo.orangehrmlive.com
+
+## 📊 Test Report
+
+| Report | Link |
+|---|---|
+| 🔗 Live Allure Report | [View Here](https://fhaikal244.github.io/orangehrm-playwright-automation) |
+
+> Allure report is automatically deployed to GitHub Pages
+> on every push to master branch
