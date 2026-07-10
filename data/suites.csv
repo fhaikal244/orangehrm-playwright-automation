@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2468","TC003 - Login with empty credentials","chromium","2026-07-10","passed","2026-07-10","Login Feature","UI/login.spec.ts","",""
+"","3384","TC001 - Valid login with correct credentials","chromium","2026-07-10","passed","2026-07-10","Login Feature","UI/login.spec.ts","",""
+"","3196","TC002 - Invalid login with wrong credentials","chromium","2026-07-10","passed","2026-07-10","Login Feature","UI/login.spec.ts","",""

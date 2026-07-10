@@ -1,0 +1,4 @@
+[ACTION] Navigate → /web/index.php/auth/login
+[ACTION] Fill → Admin
+[ACTION] Fill → admin123
+[ACTION] Click → getByRole('button', { name: 'Login' })

@@ -1,0 +1,4 @@
+[ACTION] Navigate → /web/index.php/auth/login
+[ACTION] Fill → wronguser
+[ACTION] Fill → wrongpass
+[ACTION] Click → getByRole('button', { name: 'Login' })
